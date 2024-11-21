@@ -14,6 +14,9 @@ Our designers have already created a design for you to replicate. Please use the
 
 ## Running the project
 
+To get started, run the following command to install the needed node modules.
+### `npm install`
+
 Run the following command in your terminal to run the app in development mode. \
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser. \
 The page will reload when you make changes.
