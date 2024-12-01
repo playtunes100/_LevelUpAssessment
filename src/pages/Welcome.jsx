@@ -7,6 +7,10 @@ const Welcome = () => {
     return (
         <div>
             <Navbar />
+            <div className="main">
+                <p>test</p>
+            </div>
+            
         </div>
     )
 }

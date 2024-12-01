@@ -15,7 +15,12 @@ module.exports = {
       orbitronBold: ["Orbitron Bold", "sans-serif"],
       micro5: ["Micro 5", "sans-serif"]
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'logo-mini': "url('/public/assets/logos/level-up-logo_mini.webp')",
+        'logo-long': "url('/public/assets/logos/long.svg')",
+      }
+    },
   },
   plugins: [],
 }
