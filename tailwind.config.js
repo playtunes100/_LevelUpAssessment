@@ -19,6 +19,10 @@ module.exports = {
       backgroundImage: {
         'logo-mini': "url('/public/assets/logos/level-up-logo_mini.webp')",
         'logo-long': "url('/public/assets/logos/long.svg')",
+        'cover-illustration': "url('/public/assets/illustrations/cover.webp')",
+        'softserve-logo': "url('/public/assets/logos/softserve-logo.webp')",
+        'level-up-logo': "url('/public/assets/logos/time-to-level-up.webp')",
+        'space-background': "url('/public/assets/backgrounds/space-background.webp')",
       }
     },
   },

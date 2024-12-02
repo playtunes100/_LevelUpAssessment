@@ -57,7 +57,6 @@ const ViewAllGraduates = () => {
                         </tr>
                     </thead>
                     <tbody className="text-white">
-                        
                         {list.map((grad) => <Listitem key={grad.graduateId} firstName={grad.firstName} lastName={grad.lastName} emailAddress={grad.emailAddress} phoneNumber={grad.phoneNumber} />)} 
                     </tbody>
                 </table>

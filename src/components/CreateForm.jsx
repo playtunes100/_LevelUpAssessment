@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import Button from "./Button";
 import '../App.css';
 import '../index.css';
 
@@ -59,11 +60,10 @@ const CreateForm = (props) => {
             <label className="text-orange">Date Of Birth</label>
             <input className="bg-black text-white focus:outline-none border-b md:mr-20" type="date" name="dateOfBirth" value={inputs.dateOfBirth} onChange={handleChange}/>
         </div>
-
-        <button className="flex w-4/5 md:w-1/2 h-10 justify-self-center md:justify-self-end justify-around items-center  text-white micro-5 text-2xl bg-red rounded-full hover:bg-opacity-75" type="button" onClick={handleSubmit}>
-            ADD NEW GRADUATES
-            <img className="size-6" src="../assets/icons/rocket_white.webp" alt="add new graduates rocket icon" />
-            </button>
+        <div className="flex md:justify-end justify-center">
+            <Button className="w-4/5 md:w-1/2 " title="Add New Graduates" onClick={handleSubmit}/>
+        </div>
+        
     </form></>
 }
 
