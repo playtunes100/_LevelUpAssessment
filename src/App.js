@@ -5,6 +5,7 @@ import CreateGraduate from './pages/CreateGraduate';
 import UpdateGraduate from './pages/UpdateGraduate';
 import ViewAllGraduates from './pages/ViewAllGraduates';
 import ViewGraduate from './pages/ViewGraduate';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='update/:id' element={<UpdateGraduate />} />
         <Route path='viewall' element={<ViewAllGraduates />} />
         <Route path='customer/:id' element={<ViewGraduate />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
