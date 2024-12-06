@@ -14,7 +14,7 @@ const Navbar = () => {
                 </div>
                 <div className="md:w-1/2 w-auto h-16 flex md:gap-16 gap-10 items-center justify-end uppercase">
                     <NavLink 
-                    to={'/'} 
+                    to={'/_LevelUpAssessment'} 
                     className={({ isActive }) =>
                         [
                         isActive ? "text-orange" : "text-white",
