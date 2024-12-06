@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2180.248 -147.793 3410.665 256.581" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:export>
+      <bx:file format="svg" href="#object-0" path="logo_long.svg"/>
+      <bx:file format="svg" units="%" normalization="web-animated" path="long.svg"/>
+      <bx:file format="webp" excluded="true"/>
+    </bx:export>
+  </defs>
+  <g style="transform-origin: 249.699px 142.148px;" transform="matrix(6.805852, 0.000004, 0, 1.44953, -721.330455, -161.633975)" id="object-0">
+    <rect x="-0.902" y="53.519" width="501.805" height="39.711" style="paint-order: stroke; stroke: currentcolor; fill: rgb(49, 173, 227);"/>
+    <rect x="-0.902" y="97.624" width="500.602" height="39.711" style="paint-order: stroke; stroke: currentcolor; fill: rgb(113, 195, 138);"/>
+    <rect x="-0.904" y="143.071" width="501.204" height="39.711" style="paint-order: stroke; stroke: currentcolor; fill: rgb(241, 165, 31);"/>
+    <rect x="-1.504" y="189.722" width="501.203" height="39.711" style="paint-order: stroke; stroke: currentcolor; fill: rgb(238, 34, 37);"/>
+  </g>
+</svg>
