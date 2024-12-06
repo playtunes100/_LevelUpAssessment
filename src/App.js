@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Welcome />} />
+        <Route path='/_LevelUpAssessment' element={<Welcome />} />
         <Route path='create' element={<CreateGraduate />} />
         <Route path='update/:id' element={<UpdateGraduate />} />
         <Route path='viewall' element={<ViewAllGraduates />} />

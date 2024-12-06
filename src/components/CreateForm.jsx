@@ -25,7 +25,7 @@ const CreateForm = (props) => {
         
         const method = props.update ? "PUT" : "POST";
 
-        fetch(`https://localhost:7241/api/GraduatesModels/${inputs.graduateId ?? ''}`, {
+        fetch(`https://graduatesapi-eqhabcfdfcc9c2hf.southafricanorth-01.azurewebsites.net/api/GraduatesModels/${inputs.graduateId ?? ''}`, {
             method: method,
             mode: "cors",
             headers: { 'Content-Type': 'application/json', "access-control-allow-origin" : "*"},
@@ -38,8 +38,6 @@ const CreateForm = (props) => {
     }
 
     return <>
-    <p className="text-white">{props.data ? props.data.firstName : "create"}</p>
-    <p className="text-white">{inputs.graduateId}</p>
     <form className="grid columns-1 md:grid-cols-2 md:grid-rows-3 m-4 md:m-12" name="createForm">
         <div className="grid mb-6">
             <label className="text-orange">Name</label>
