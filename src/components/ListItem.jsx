@@ -20,6 +20,7 @@ const Listitem= (props) =>{
                     <Link to={'../update/'+ props.graduateId} ><button className="inline rounded-full border-2 border-green text-green text-sm p-2 pl-4 pr-4 uppercase">Update</button></Link>
                     
                     <button className="inline rounded-full border-2 border-red text-red text-sm p-2 pl-4 pr-4 uppercase" onClick={() => setOpenDelete(true)}>Delete</button>
+                    
                     {openDelete && <DeletePopUp/>}
                 </div> 
             </td>
