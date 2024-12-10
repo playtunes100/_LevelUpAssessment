@@ -4,7 +4,7 @@ import React from "react";
 const DeletePopUp = () =>{
 
     return(
-        <div>
+        <div className="h-screen z-10 bg-black opacity-25">
             
         </div>
     )
