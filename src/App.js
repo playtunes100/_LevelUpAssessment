@@ -13,9 +13,9 @@ function App() {
       <Routes>
         <Route path='/_LevelUpAssessment' element={<Welcome />} />
         <Route path='_LevelUpAssessment/create' element={<CreateGraduate />} />
-        <Route path='_LevelUpAssessment/update/:id' element={<UpdateGraduate />} />
+        <Route path='update/:id' element={<UpdateGraduate />} />
         <Route path='_LevelUpAssessment/viewall' element={<ViewAllGraduates />} />
-        <Route path='_LevelUpAssessment/customer/:id' element={<ViewGraduate />} />
+        <Route path='customer/:id' element={<ViewGraduate />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
