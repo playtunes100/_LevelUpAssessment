@@ -14,7 +14,7 @@ const CreateGraduate = () => {
         <div>
             <Navbar />
             <div className="">
-                <Heading title={"Create graduate"} update={false}/>
+                <Heading title={"Create graduate"}/>
                 <CreateForm title={"Create New Graduates"} update={false} />
                 
             </div>

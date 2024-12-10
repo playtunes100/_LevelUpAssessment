@@ -42,13 +42,13 @@ const ViewAllGraduates = () => {
                             <th className="md:rounded-s-xl rounded-s-lg md:py-2 py-1 md:px-8 px-4">
                                 <div className="relative flex justify-start items-center">
                                     Full Name
-                                    <img src="../assets/icons/rocket_black.webp" className="absolute right-0 h-2/3 md:block hidden" alt="icon" />
+                                    <img src="../_LevelUpAssessment/assets/icons/rocket_black.webp" className="absolute right-0 h-2/3 md:block hidden" alt="icon" />
                                 </div>
                             </th>
                             <th className="md:py-2 py-1 md:px-8 px-4 md:block hidden">
                                 <div className="relative flex justify-start items-center">
                                     Contact Details
-                                    <img src="../assets/icons/rocket_black.webp" className="absolute right-0 h-2/3" alt="icon" />
+                                    <img src="../_LevelUpAssessment/assets/icons/rocket_black.webp" className="absolute right-0 h-2/3" alt="icon" />
                                 </div>
                             </th>
                             <th className="md:rounded-e-xl rounded-e-lg md:py-2 py-1 md:px-8 px-4">
