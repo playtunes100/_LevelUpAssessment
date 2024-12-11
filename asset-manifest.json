@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/_LevelUpAssessment/static/css/main.36742e99.css",
-    "main.js": "/_LevelUpAssessment/static/js/main.12977d48.js",
+    "main.css": "/_LevelUpAssessment/static/css/main.0360642b.css",
+    "main.js": "/_LevelUpAssessment/static/js/main.96873319.js",
     "static/js/453.cc57bb06.chunk.js": "/_LevelUpAssessment/static/js/453.cc57bb06.chunk.js",
     "static/media/cover.webp": "/_LevelUpAssessment/static/media/cover.14228a86dac629be839b.webp",
     "static/media/Micro5-Regular.ttf": "/_LevelUpAssessment/static/media/Micro5-Regular.e2dd767cdcb98d23917f.ttf",
@@ -9,12 +9,12 @@
     "static/media/space-background.webp": "/_LevelUpAssessment/static/media/space-background.ea9f98184e58032a9db7.webp",
     "static/media/long.svg": "/_LevelUpAssessment/static/media/long.c43c6a894e15113aecda.svg",
     "index.html": "/_LevelUpAssessment/index.html",
-    "main.36742e99.css.map": "/_LevelUpAssessment/static/css/main.36742e99.css.map",
-    "main.12977d48.js.map": "/_LevelUpAssessment/static/js/main.12977d48.js.map",
+    "main.0360642b.css.map": "/_LevelUpAssessment/static/css/main.0360642b.css.map",
+    "main.96873319.js.map": "/_LevelUpAssessment/static/js/main.96873319.js.map",
     "453.cc57bb06.chunk.js.map": "/_LevelUpAssessment/static/js/453.cc57bb06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36742e99.css",
-    "static/js/main.12977d48.js"
+    "static/css/main.0360642b.css",
+    "static/js/main.96873319.js"
   ]
 }
