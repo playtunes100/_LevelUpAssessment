@@ -55,11 +55,11 @@ const ViewGraduate = () => {
                     <div className="grid grid-cols-2 md:grid-cols-4 divide-white divide-x-2">
                         <div className="mt-6">
                             <p className="text-orange text-xs uppercase">Date Created</p>
-                            <p className="text-white text-xl ">{grad.dateCreated}</p>    
+                            <p className="text-white text-xl ">{new Date(grad.dateCreated).toLocaleDateString("en-US").replace('/', '.')}</p>    
                         </div>
                         <div className=" mt-6 ">
                             <p className="pl-6 text-orange text-xs uppercase">Last Edited</p>
-                            <p className="pl-6 text-white text-xl ">{grad.dateEdited}</p>    
+                            <p className="pl-6 text-white text-xl ">{new Date(grad.dateEdited).toLocaleDateString("en-US").replace('/', '.')}</p>    
                         </div>
                     </div>
                     
