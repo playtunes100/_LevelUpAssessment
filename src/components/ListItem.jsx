@@ -21,7 +21,7 @@ const Listitem= (props) =>{
                     
                     <button className="inline rounded-full border-2 border-red text-red text-sm p-2 pl-4 pr-4 uppercase" onClick={() => setOpenDelete(true)}>Delete</button>
                     
-                    {openDelete && <DeletePopUp graduateId={props.graduateId} firstName={props.firstName } lastName={props.lastName} setOpenDelete={setOpenDelete}/>}
+                    {openDelete && <DeletePopUp graduateId={props.graduateId} firstName={props.firstName } lastName={props.lastName} setOpenDelete={setOpenDelete} fetchData={props.fetchData}/>}
                 </div> 
             </td>
         </tr>
