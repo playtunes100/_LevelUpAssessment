@@ -1,11 +1,12 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import '../App.css';
 import '../index.css';
 
 const CreateForm = (props) => {
-
+    let navigate = useNavigate();
     const [inputs, setInputs] = useState({});
 
     useEffect(() => {
@@ -32,6 +33,19 @@ const CreateForm = (props) => {
             body: JSON.stringify(inputs)
           }).then((response) => {
             // Display a message showing success or error
+            if(props.update === false){
+                setInputs({
+                    firstName:"",
+                    lastName:"",
+                    emailAddress:"",
+                    phoneNumber:"",
+                    dateOfBirth:""
+                })
+            }
+            else{
+                navigate('/_LevelUpAssessment/viewall');
+            }
+
             
         });
 
