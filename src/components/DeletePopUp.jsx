@@ -21,7 +21,7 @@ const DeletePopUp = (props) =>{
     }
 
     return(
-        <div className="flex justify-center items-center  h-screen w-screen z-20 bg-black opacity-75 absolute top-0 left-0">
+        <div className="flex justify-center items-center  h-screen w-screen z-20 bg-black/75 absolute top-0 left-0">
             <div className="flex flex-col items-center h-3/5 w-5/6 md:w-1/3 bg-white " >
                 <p className="micro-5 text-2xl text-black mt-20">DELETE GRADUATE</p>
                 <h1 className="font-bold text-3xl text-black">DELETE</h1>
