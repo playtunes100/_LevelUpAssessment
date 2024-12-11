@@ -62,8 +62,6 @@ const ViewGraduate = () => {
                             <p className="pl-6 text-white text-xl ">{new Date(grad.dateEdited).toLocaleDateString("en-US").replaceAll('/', '.')}</p>    
                         </div>
                     </div>
-                    
-                    
                 </div>
             </div>
 
