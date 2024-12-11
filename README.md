@@ -4,6 +4,12 @@
 I have only one thing to say. I should not have tried to learn tailwind, It took me for a whirlwind. \
 On the bright side, i now understand a bit of it and prefer it over vanilla css, it's short and precise. 
 
+The Frontend retieves data from a Asp.Net Web API.\
+[Web API Github page](https://github.com/playtunes100/graduatesAPI)
+
+[Frontend hosted on github pages](https://playtunes100.github.io/_LevelUpAssessment) 
+
+
 
 [Design Mockup on Figma](https://www.figma.com/design/HtbUsAXOZEBjEBTnnTkpq8/Level_Up_Frontend_Design) \
 [Design Mockup Files]([https://link](https://github.com/Softserve-Digital-Development/_LevelUpAssessment/tree/main/designs)) \
