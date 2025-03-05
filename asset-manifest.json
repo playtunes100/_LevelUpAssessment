@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/_LevelUpAssessment/static/css/main.b008baf0.css",
-    "main.js": "/_LevelUpAssessment/static/js/main.f564f56d.js",
+    "main.css": "/_LevelUpAssessment/static/css/main.68c98822.css",
+    "main.js": "/_LevelUpAssessment/static/js/main.10107996.js",
     "static/js/453.cc57bb06.chunk.js": "/_LevelUpAssessment/static/js/453.cc57bb06.chunk.js",
     "static/media/cover.webp": "/_LevelUpAssessment/static/media/cover.14228a86dac629be839b.webp",
     "static/media/Micro5-Regular.ttf": "/_LevelUpAssessment/static/media/Micro5-Regular.e2dd767cdcb98d23917f.ttf",
     "static/media/time-to-level-up.webp": "/_LevelUpAssessment/static/media/time-to-level-up.20d498b554d8397148ae.webp",
     "static/media/space-background.webp": "/_LevelUpAssessment/static/media/space-background.ea9f98184e58032a9db7.webp",
-    "static/media/long.svg": "/_LevelUpAssessment/static/media/long.c43c6a894e15113aecda.svg",
+    "static/media/long.svg": "/_LevelUpAssessment/static/media/long.58d47b1a00c40871c1c2.svg",
     "index.html": "/_LevelUpAssessment/index.html",
-    "main.b008baf0.css.map": "/_LevelUpAssessment/static/css/main.b008baf0.css.map",
-    "main.f564f56d.js.map": "/_LevelUpAssessment/static/js/main.f564f56d.js.map",
+    "main.68c98822.css.map": "/_LevelUpAssessment/static/css/main.68c98822.css.map",
+    "main.10107996.js.map": "/_LevelUpAssessment/static/js/main.10107996.js.map",
     "453.cc57bb06.chunk.js.map": "/_LevelUpAssessment/static/js/453.cc57bb06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b008baf0.css",
-    "static/js/main.f564f56d.js"
+    "static/css/main.68c98822.css",
+    "static/js/main.10107996.js"
   ]
 }
