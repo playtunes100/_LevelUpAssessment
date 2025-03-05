@@ -7,7 +7,7 @@ const DeletePopUp = (props) =>{
         event.preventDefault();
         
 
-        fetch(`https://graduatesapi-eqhabcfdfcc9c2hf.southafricanorth-01.azurewebsites.net/api/GraduatesModels/${props.graduateId ?? ''}`, {
+        fetch(`https://gsevbu6qn3.execute-api.af-south-1.amazonaws.com/api/GraduatesModels/${props.graduateId ?? ''}`, {
             method: "DELETE",
             mode: "cors",
             headers: { 'Content-Type': 'application/json', "access-control-allow-origin" : "*"}

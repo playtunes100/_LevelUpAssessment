@@ -17,7 +17,7 @@ const ViewAllGraduates = () => {
       }, []);
 
       const fetchData= () =>{
-        fetch("https://graduatesapi-eqhabcfdfcc9c2hf.southafricanorth-01.azurewebsites.net/api/GraduatesModels", {
+        fetch("https://gsevbu6qn3.execute-api.af-south-1.amazonaws.com/api/GraduatesModels", {
             method: "GET",
             mode: "cors",
             headers: { 'Content-Type': 'application/json', "access-control-allow-origin" : "*"},
