@@ -18,7 +18,7 @@ const ViewGraduate = () => {
       }, []);
 
       const fetchData= () =>{
-        fetch("https://gsevbu6qn3.execute-api.af-south-1.amazonaws.com/api/GraduatesModels/"+id, {
+        fetch("https://drsfhz1hdk.execute-api.af-south-1.amazonaws.com/api/GraduatesModels/"+id, {
             method: "GET",
             mode: "cors",
             headers: { 'Content-Type': 'application/json', "access-control-allow-origin" : "*"},

@@ -26,7 +26,7 @@ const CreateForm = (props) => {
         
         const method = props.update ? "PUT" : "POST";
 
-        fetch(`https://gsevbu6qn3.execute-api.af-south-1.amazonaws.com/api/GraduatesModels/${inputs.graduateId ?? ''}`, {
+        fetch(`https://drsfhz1hdk.execute-api.af-south-1.amazonaws.com/api/GraduatesModels/${inputs.graduateId ?? ''}`, {
             method: method,
             mode: "cors",
             headers: { 'Content-Type': 'application/json', "access-control-allow-origin" : "*"},
